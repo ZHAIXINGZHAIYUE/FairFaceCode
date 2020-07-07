@@ -16,7 +16,7 @@ provided docker:  zhaixingzhaiyue/mxnetcu90-py2
 
 1. preprocess the test data 
 
-     Download the preprocessed data from the url https://c-t.work/s/9afa03a0bbb74c, and put it in the datasets folder. Then run `tar xvf eccv_test_preprocessed.tar`
+     Download the preprocessed data from the url https://c-t.work/s/0cc50e790e4f4e, and put it in the datasets folder. Then run `tar xvf eccv_test_preprocessed.tar`
 
     If you want preprocess the test data yourself:
 
