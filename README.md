@@ -8,6 +8,7 @@ change based insightface
     - numpy
     - scipy
 2. mxnet >= 1.3.0
+
 provided docker:  zhaixingzhaiyue/mxnetcu90-py2
 
 ## Instructions to reproduce the result of test phase with trained model
