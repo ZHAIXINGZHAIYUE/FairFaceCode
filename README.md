@@ -3,6 +3,7 @@ change based insightface
 ------
 ## Requirements
 1. python 2.7.12+
+
     - opencv
     - sklearn
     - numpy
@@ -14,6 +15,7 @@ provided docker:  zhaixingzhaiyue/mxnetcu90-py2
 ## Instructions to reproduce the result of test phase with trained model
 
 1. preprocess the test data 
+
      Download the preprocessed data from the url https://c-t.work/s/9afa03a0bbb74c, and put it in the datasets folder. Then run `tar xvf eccv_test_preprocessed.tar`
 
     If you want preprocess the test data yourself:
@@ -22,7 +24,8 @@ provided docker:  zhaixingzhaiyue/mxnetcu90-py2
 
     `cd facealign; sh ../tools/preprocess.sh` # you need to change the eccv_test_data to real path in ../tools/preprocess.sh. 
     Note, this is a little slow.
-2. prepare the trained model
+2. prepare the trained model 
+
     Downlaod the trained model from https://c-t.work/s/9afa03a0bbb74c, and put it it the folder trained_models. Then run `tar xvf trained_models.tar`
 
 3. **generate final predict file**
